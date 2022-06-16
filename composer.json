@@ -1,0 +1,20 @@
+{
+    "name": "redstart/framework",
+    "description": "Redstart framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vladimir Serebryanskiy",
+            "email": "silver.redstart@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core/"
+        }
+    }
+}
